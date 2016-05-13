@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     int six=atoi(argv[6]);
     int seven=atoi(argv[7]);
     
-    if(one<=two and three<=four and five >0 and six >0 or (one %two <67 and seven!=one)) cout<<1<<endl;
+    if(one<=two and three<=four and five >0 and six >0 or (one %two <67 and seven==one)) cout<<1<<endl;
     else cout<<0<<endl;
 
 
